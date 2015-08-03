@@ -1,0 +1,50 @@
+body {
+  margin: 10px auto;
+  padding: 0;
+  font-family: Helvetica;
+}
+#list {
+  margin: 10px auto;
+  padding: 0;
+  width: 50%;
+  border: 5px dotted lightgray;
+  border-radius: 10px;
+}
+h1, h2, h4 { text-align: center; color: lightgray;}
+ul {
+  margin: 0 auto;
+  padding-left: 0;
+  display: block;
+}
+li {
+  background-color: pink;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+.done {
+  display: inline-block;
+  margin-right: 10px;
+}
+.edit {
+  display: inline-block;
+
+}
+#showForm {
+  margin: 10px auto;
+  padding: 5px;
+  display: block;
+}
+input {
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 15px;
+  display: block;
+}
+#addButton {
+  padding: 10px;
+  display: block;
+}
+
